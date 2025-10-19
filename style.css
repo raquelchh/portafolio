@@ -6,4 +6,9 @@
     justify-content: center;
     
 }
+section{
+    unicode-bidi: isolate ;
+    display: block;
+    text-align: center;
+}
  

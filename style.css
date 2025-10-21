@@ -25,8 +25,10 @@ nav ul {
   padding: 0;
   margin: 0;
 }
-
-
+.list{
+  display: flex;
+  align-items: center;
+}
 nav ul li {
   display: inline;
   margin: 0 1rem;
@@ -53,12 +55,7 @@ section {
   margin-bottom: 1rem;
 }
 
-.profile-picture2{
-  width: 200px;
-  height: 200px;
-  border-radius: 50px;
-  border:  3px solid #e8c9c9;
-}
+ 
 
 .card {
   background: white;

@@ -66,12 +66,13 @@ section {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   margin-bottom: 1rem;
 }
-#titleprin{
+#titleprin #sub{
   display: flex;
   justify-content: center;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+ 
 
 #projects .card-containers{
   display: flex;

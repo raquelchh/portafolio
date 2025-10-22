@@ -54,13 +54,24 @@ section {
   margin: auto;
 }
 .profile-picture{
+  display: flex ;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #ffffff ;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  margin-bottom: 1rem;}
+  margin-bottom: 1rem;
+}
+#titleprin{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 #projects .card-containers{
   display: flex;
@@ -151,5 +162,12 @@ footer {
 
 .project-link:hover {
   background-color: #6f2a99;
+}
+#sobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:justify;
+  color: #ffffff;
 }
  

@@ -189,3 +189,33 @@ footer {
   justify-content: center;
   color: #ffffff;
 }
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.skills-list li {
+  background-color: #111;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255,255,255,0.1);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.skills-list li:hover {
+  transform: scale(1.05);
+}
+
+.skills-list i {
+  font-size: 1.5rem;
+  color: #f06529; /* você pode mudar a cor por tecnologia */
+}
